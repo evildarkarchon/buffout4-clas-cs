@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using Ookii.CommandLine;
+﻿using Ookii.CommandLine;
 namespace CLAS;
 [ParseOptions(Mode = ParsingMode.LongShort,
     CaseSensitive = true,
@@ -7,7 +6,7 @@ namespace CLAS;
     ValueDescriptionTransform = NameTransform.DashCase)]
 class Arguments
 {
-    
+
 }
 static class Program
 {
